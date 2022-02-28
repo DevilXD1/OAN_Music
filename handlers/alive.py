@@ -35,20 +35,12 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/6e2ab05382cf91185b4fe.jpg",
-        caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━
-🔰𝙃𝙚𝙡𝙡𝙤 𝙈𝙖𝙩𝙚 📍𝙄 𝘼𝙢 𝙎𝙪𝙥𝙚𝙧 𝗢𝗔𝗡 𝗠𝘂𝘀𝗶𝗰
-𝘽𝙤𝙩 𝙁𝙤𝙧 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙂𝙧𝙤𝙪𝙥𝙨 ...
-┏━━━━━━━━━━━━━━━━━┓
-┣★𝗢𝘄𝗻𝗲𝗿  : [𝐀𝐭𝐭𝐢𝐭𝐮𝐝𝐞 𝐊𝐢𝐧𝐠](https://t.me/ItsAttitudeking)
-┣★𝗦𝘂𝗽𝗽𝗼𝗿𝘁 : [➢𝐎𝐀𝐍](https://t.me/oan_support)
-┣★𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆 : [𝐀𝐭𝐭𝐢𝐭𝐮𝐝𝐞 𝐍𝐞𝐭𝐰𝐨𝐫𝐤](Https://t.me/attitude_galaxy)
-┗━━━━━━━━━━━━━━━━━┛
-━━━━━━━━━━━━━━━━━━━━━━━━**""",
+        caption=f"""I m Alive""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "📍🔘𝗔𝗱𝗱 𝗠𝗲 𝗜𝗻 𝗚𝗿𝗼𝘂𝗽🔘📍", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "🔥⚜️Powered By⚜️🔥", url=f"https://t.me/Attitude_Network")
                 ]
                 
            ]
