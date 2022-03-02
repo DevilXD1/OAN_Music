@@ -34,8 +34,8 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"CAACAgUAAxkBAAIHIWIe3hnLSbRnvB84m2jnJfh8jYwTAAI5BQACTH_xVF3UL5iKZjnsHgQ",
-        caption=f"""""",
+        photo=f"",
+        caption=f"""Hello miss/master I m Thor for music and fir ur group Security🛡️""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
