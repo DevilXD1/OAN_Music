@@ -34,7 +34,7 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"",
+        photo=f"https://telegra.ph/file/3d200a79842ed51e3c7df.jpg",
         caption=f"""Hello miss/master I m Thor for music and fir ur group Security🛡️""",
     reply_markup=InlineKeyboardMarkup(
             [
@@ -48,10 +48,10 @@ async def start_(client: Client, message: Message):
     )
     
     
-@Client.on_message(commandpro(["/start", "/alive", "@Attitude_Network"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["/start", "/alive", "@Attitude_Network", "/ping"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/6e2ab05382cf91185b4fe.jpg",
+        photo=f"https://telegra.ph/file/3d200a79842ed51e3c7df.jpg",
         caption=f"""I M ALIVE......""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -64,10 +64,10 @@ async def start(client: Client, message: Message):
     )
 
 
-@Client.on_message(commandpro(["OAN_music", "Shaurya", "@Attitude_Network", "/Channel", "Channel"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["OAN_music", "/repo", "Shaurya", "@Attitude_Network", "/Channel", "Channel"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/6e2ab05382cf91185b4fe.jpg",
+        photo=f"https://telegra.ph/file/3d200a79842ed51e3c7df.jpg",
         caption=f"""CLICK TO JOIN👇🏻""",
         reply_markup=InlineKeyboardMarkup(
             [
